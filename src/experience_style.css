@@ -1,0 +1,130 @@
+:root {
+  line-height: 1.5;
+  font-size: 15px;
+
+  --dark_green_color: #00241b;
+  --dark_cyan_color: #4e878c;
+  --mint_color: #65b891;
+  --celadon_color: #93e5ab;
+  --aquamarine_color: #b5ffe1;
+  --white_color: rgb(255, 255, 255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vh;
+  max-width: 100%;
+  padding: 0 35px;
+  margin-top: 17vh;
+  margin-bottom: 8vh;
+}
+
+.column img {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 100%;
+  filter: sepia(80%);
+  transition: all 0.3s ease;
+}
+
+.column img:hover {
+  cursor: pointer;
+  filter: sepia(30%);
+  box-shadow: 0 0 10px #00241b;
+  transform: scale(1.1);
+}
+
+.rnovaimg {
+  height: 13.7vh;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s ease;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.overlay .slideshow {
+  width: 90%;
+  height: 90%;
+  background-color: rgba(187, 206, 187, 0.5);
+  color: var(--dark_cyan_color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.btn_close {
+  position: absolute;
+  margin-bottom: 20px;
+  font-size: 25px;
+  width: 30px;
+  height: 28px;
+  right: 0vh;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn_close:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  color: var(--dark_cyan_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+  /* pointer-events: none; */
+}
+
+.github {
+  margin-top: 2vh;
+}
+
+.linkedin {
+  margin-top: 2vh;
+}
+
+/*poner un hover indicando al pasar por las imagenes + info o algo así */
