@@ -4,6 +4,7 @@ import { renderProjects } from '../pages/projects';
 
 // NAVBAR
 export const renderNavbar = () => {
+  renderHome();
   const containerSelector = document.querySelector('#navbar');
   // Create nav elements in html
   const divNavBar = document.createElement('div');
@@ -16,16 +17,15 @@ export const renderNavbar = () => {
   navHome.className = 'principal_links_bar is_home';
   navHome.href = '/home';
   navHome.textContent = './Página_Principal';
-  navExperience.className = 'principal_links_bar';
+  navExperience.className = 'principal_links_bar is_experience';
   navExperience.href = '/experience';
   navExperience.textContent = './Experiencia';
-  navProjects.className = 'principal_links_bar';
+  navProjects.className = 'principal_links_bar is_projects';
   navProjects.href = '/projects';
   navProjects.textContent = './Proyectos_en_Producción';
 
   // Click listener event in navbar
   const clickListener = (ev) => {
-    console.log(clickListener);
     ev.preventDefault();
     const hrefSelect = ev.target.getAttribute('href');
     if (hrefSelect === '/experience') {
@@ -33,10 +33,7 @@ export const renderNavbar = () => {
     } else if (hrefSelect === '/projects') {
       renderProjects();
     } else if (hrefSelect === '/home') {
-      const isHomePage = containerSelector.querySelector('.is_home');
-      if (!isHomePage) {
-        renderHome();
-      }
+      renderHome();
     }
   };
 

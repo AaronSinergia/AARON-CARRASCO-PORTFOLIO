@@ -14,11 +14,10 @@
 
 // PROJECTS BODY
 export const renderProjects = () => {
-  const bodyOfHtml = document.querySelector('body');
+  const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
-    <div class="navbar"></div>
     <div class="data_box_1">
-    <h3 class="datos_personales">./RESIDENCIA/BCN.html
+    <h3 class="datos_personales">./REaaaaaaBCN.html
     ./EDAD/32_AÑOS.css
     ./ACTUALMENTE/DXC/HelpDeskIt.js</h3>
     <h3 class="frase">"Los peces muertos son los únicos que siguen la corriente"</h3>
@@ -32,12 +31,5 @@ export const renderProjects = () => {
     <h3 class="my_aspirations">Mis aspiraciones son entrar en el mundo de la programación como web developer y mejorar día a día como frontend dónde creo que tengo mucho que decir y aportar.</h3>
     <h3 class="my_work_valors">Actualmente trabajo para una empresa IT la cual ofrece servicios a un importante banco a nivel mundial. A demás, soy músico y trabajo en ocasiones como músico de sesión, y grabando música para otros artistas.</h3>
     </div>
-    <h3 class="mail_contact"></h3>
-    <article class="rrss"></article>
-    <footer class="footer"></footer>
     `;
-  renderNavbar();
-  renderMailContact();
-  renderRRSSIcons();
-  renderFooter();
 };

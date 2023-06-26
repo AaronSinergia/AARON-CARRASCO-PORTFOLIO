@@ -7,6 +7,7 @@ const bodyHomeTitle = () => {
   h1.className = 'title_name';
   h1.textContent = '.../AARON_CARRASCO';
   containerSelector.appendChild(h1);
+  return containerSelector.outerHTML;
 };
 
 // BODY HOME DATA BOX 1
@@ -26,7 +27,9 @@ const bodyHomeData = () => {
   divDataBox.appendChild(h3Word);
   divDataBox.appendChild(h3);
   containerSelector.appendChild(divDataBox);
+  return divDataBox.outerHTML;
 };
+
 // BODY HOME CURLY BRACKETS AND PRINCIPAL PHOTO
 const bodyHomeCurly = () => {
   const containerSelector = document.querySelector('#container');
@@ -48,7 +51,9 @@ const bodyHomeCurly = () => {
   divCurly.appendChild(aaronImg);
   divCurly.appendChild(h2CurlyRigth);
   containerSelector.appendChild(divCurly);
+  return divCurly.outerHTML;
 };
+
 // BODY HOME DATA BOX 2
 const bodyHomeData2 = () => {
   const containerSelector = document.querySelector('#container');
@@ -67,12 +72,20 @@ const bodyHomeData2 = () => {
   divDataBox.appendChild(h3);
   divDataBox.appendChild(h3Two);
   containerSelector.appendChild(divDataBox);
+  return divDataBox.outerHTML;
 };
 
 // RENDER HOME
 export const renderHome = () => {
-  bodyHomeTitle();
-  bodyHomeData();
-  bodyHomeCurly();
-  bodyHomeData2();
+  const bodyOfHtml = document.querySelector('#container');
+  bodyOfHtml.innerHTML = `
+    ${bodyHomeTitle()}
+    ${bodyHomeData()}
+    ${bodyHomeCurly()}
+    ${bodyHomeData2()}
+  `;
+  // bodyHomeTitle();
+  // bodyHomeData();
+  // bodyHomeCurly();
+  // bodyHomeData2();
 };
