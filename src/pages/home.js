@@ -2,17 +2,14 @@ import '../style.css';
 
 // HOME TITLE
 const bodyHomeTitle = () => {
-  const containerSelector = document.querySelector('#container');
   const h1 = document.createElement('h1');
   h1.className = 'title_name';
   h1.textContent = '.../AARON_CARRASCO';
-  containerSelector.appendChild(h1);
-  return containerSelector.outerHTML;
+  return h1.outerHTML;
 };
 
 // BODY HOME DATA BOX 1
 const bodyHomeData = () => {
-  const containerSelector = document.querySelector('#container');
   const divDataBox = document.createElement('div');
   const h3 = document.createElement('h3');
   divDataBox.className = 'data_box_1';
@@ -26,13 +23,11 @@ const bodyHomeData = () => {
     '"Los peces muertos son los únicos que siguen la corriente"';
   divDataBox.appendChild(h3Word);
   divDataBox.appendChild(h3);
-  containerSelector.appendChild(divDataBox);
   return divDataBox.outerHTML;
 };
 
 // BODY HOME CURLY BRACKETS AND PRINCIPAL PHOTO
 const bodyHomeCurly = () => {
-  const containerSelector = document.querySelector('#container');
   const divCurly = document.createElement('div');
   const h2CurlyLeft = document.createElement('h2');
   const aaronImg = document.createElement('img');
@@ -50,13 +45,11 @@ const bodyHomeCurly = () => {
   divCurly.appendChild(h2CurlyLeft);
   divCurly.appendChild(aaronImg);
   divCurly.appendChild(h2CurlyRigth);
-  containerSelector.appendChild(divCurly);
   return divCurly.outerHTML;
 };
 
 // BODY HOME DATA BOX 2
 const bodyHomeData2 = () => {
-  const containerSelector = document.querySelector('#container');
   const divDataBox = document.createElement('div');
   const h3 = document.createElement('h3');
   const h3Two = document.createElement('h3');
@@ -71,7 +64,6 @@ const bodyHomeData2 = () => {
 
   divDataBox.appendChild(h3);
   divDataBox.appendChild(h3Two);
-  containerSelector.appendChild(divDataBox);
   return divDataBox.outerHTML;
 };
 
@@ -84,8 +76,4 @@ export const renderHome = () => {
     ${bodyHomeCurly()}
     ${bodyHomeData2()}
   `;
-  // bodyHomeTitle();
-  // bodyHomeData();
-  // bodyHomeCurly();
-  // bodyHomeData2();
 };

@@ -184,7 +184,12 @@ article > a > img {
   margin-top: 2vh;
 }
 
+.github {
+  margin-top: 1.5vh;
+}
+
 .linkedin {
+  margin-top: 1.5vh;
   width: 40px;
 }
 
