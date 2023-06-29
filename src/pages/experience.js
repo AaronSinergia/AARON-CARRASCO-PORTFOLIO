@@ -1,5 +1,5 @@
 import '../experience_style.css';
-import '../style.css';
+import { experienceList } from '../components/ExperienceList';
 
 // EXPERIENCE TITLE
 const bodyExperienceData = () => {
@@ -13,40 +13,23 @@ const bodyExperienceData = () => {
 const workGallery = () => {
   const sectionGallery = document.createElement('section');
   const divGalleryColumn = document.createElement('div');
-  const rnovaImg = document.createElement('img');
-  const emergiaImg = document.createElement('img');
-  const vodafoneImg = document.createElement('img');
-  const argomImg = document.createElement('img');
-  const dxcImg = document.createElement('img');
 
   sectionGallery.className = 'gallery';
   divGalleryColumn.className = 'column';
-  rnovaImg.className = 'rnovaimg';
-  rnovaImg.src = '../../src/img/rnova-sll_li1.png';
-  rnovaImg.alt = 'rnova_logo';
-  rnovaImg.dataset.imgShow =
-    'Ayudante de instalación de sistemas fotovoltáicos';
-  emergiaImg.src = '../../src/img/emergia.jpg';
-  emergiaImg.alt = 'emergia_logo';
-  emergiaImg.dataset.imgShow =
-    'Team Leader para equipo de comerciales telefónicos';
-  vodafoneImg.src = '../../src/img/vodafone.png';
-  vodafoneImg.alt = 'vodafone_logo';
-  vodafoneImg.dataset.imgShow =
-    'Gestión de BBDD, para empresa de telefonía y red de comerciales';
-  argomImg.src = '../../src/img/argom.jpeg';
-  argomImg.alt = 'argom_logo';
-  argomImg.dataset.imgShow = 'Gestor de almacén y gestión de clientes';
-  dxcImg.src = '../../src/img/dxc.png';
-  dxcImg.alt = 'dxc_logo';
-  dxcImg.dataset.imgShow = 'Service Desk para empresa contratadora bancaria';
 
-  divGalleryColumn.appendChild(rnovaImg);
-  divGalleryColumn.appendChild(emergiaImg);
-  divGalleryColumn.appendChild(vodafoneImg);
-  divGalleryColumn.appendChild(argomImg);
-  divGalleryColumn.appendChild(dxcImg);
-  sectionGallery.appendChild(divGalleryColumn);
+  for (let i = 0; i < experienceList.length; i++) {
+    const experienceListShow = experienceList[i];
+    const imageExperienceList = document.createElement('img');
+
+    imageExperienceList.src = experienceListShow.image;
+    imageExperienceList.alt = experienceListShow.alt;
+    imageExperienceList.setAttribute(
+      'data-img-show',
+      experienceListShow.dataset
+    );
+    divGalleryColumn.appendChild(imageExperienceList);
+    sectionGallery.appendChild(divGalleryColumn);
+  }
   return sectionGallery.outerHTML;
 };
 
@@ -75,12 +58,22 @@ const overlayPhoto = () => {
   return createOverlay.outerHTML;
 };
 
+// CURLY  BRACKETS EXPERIENCE DOWN
+const curlyDown = () => {
+  const h2CurlyDown = document.createElement('h2');
+  h2CurlyDown.className = 'curly_experience_down';
+  h2CurlyDown.textContent = '}';
+
+  return h2CurlyDown.outerHTML;
+};
+
 export const renderExperience = () => {
   const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
     ${bodyExperienceData()}
     ${workGallery()}
     ${overlayPhoto()}
+    ${curlyDown()}
   `;
 
   // Abrir imagen clicada con overlay

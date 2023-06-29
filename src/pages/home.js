@@ -9,7 +9,7 @@ const bodyHomeTitle = () => {
 };
 
 // BODY HOME DATA BOX 1
-const bodyHomeData = () => {
+const bodyHomeData1 = () => {
   const divDataBox = document.createElement('div');
   const h3 = document.createElement('h3');
   divDataBox.className = 'data_box_1';
@@ -72,7 +72,7 @@ export const renderHome = () => {
   const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
     ${bodyHomeTitle()}
-    ${bodyHomeData()}
+    ${bodyHomeData1()}
     ${bodyHomeCurly()}
     ${bodyHomeData2()}
   `;
