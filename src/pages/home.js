@@ -37,7 +37,7 @@ const bodyHomeCurly = () => {
   h2CurlyLeft.className = 'curlybracket';
   h2CurlyLeft.textContent = '{';
   aaronImg.className = 'aaron_photo';
-  aaronImg.src = './assets/aaron.png';
+  aaronImg.src = '../src/assets/aaron.png';
   aaronImg.alt = 'aaron_photo';
   h2CurlyRigth.className = 'curlybracket';
   h2CurlyRigth.textContent = '}';
