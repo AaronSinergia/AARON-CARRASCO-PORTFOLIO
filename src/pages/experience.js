@@ -1,5 +1,5 @@
-import '../experience_style.css';
 import { experienceList } from '../components/ExperienceList';
+import '../experience_style.css';
 
 // EXPERIENCE TITLE
 const bodyExperienceData = () => {
@@ -58,27 +58,12 @@ const overlayPhoto = () => {
   return createOverlay.outerHTML;
 };
 
-// CURLY  BRACKETS EXPERIENCE DOWN
-const curlyDown = () => {
-  const divCurlyDown = document.createElement('div');
-  const h2CurlyDown = document.createElement('h2');
-
-  divCurlyDown.className = 'curly_down_div';
-  h2CurlyDown.className = 'curly_experience_down';
-  h2CurlyDown.textContent = '}';
-
-  divCurlyDown.appendChild(h2CurlyDown);
-
-  return divCurlyDown.outerHTML;
-};
-
 export const renderExperience = () => {
   const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
     ${bodyExperienceData()}
     ${workGallery()}
     ${overlayPhoto()}
-    ${curlyDown()}
   `;
 
   // Abrir imagen clicada con overlay

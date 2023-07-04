@@ -204,7 +204,208 @@ footer {
   justify-content: center;
 }
 
+@media screen and (min-width: 1081px) and (max-width: 2700px) {
+  .title_name {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18vh;
+    grid-gap: 0.2em;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+
+  .data_box_1 {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 30% 70%;
+    font-size: 6px;
+    grid-gap: 0.2em;
+    height: 10%;
+    max-height: 40%;
+    margin-top: 11vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 20px 20px 0px rgba(0, 36, 27, 1);
+  }
+
+  .curly_and_aaronphoto {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 12vh;
+    margin-bottom: -9vh;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .curlybracket {
+    font-size: 15vh;
+    text-align: center;
+    box-shadow: 10px 30px 30px 0px rgba(0, 36, 27, 1);
+  }
+
+  .aaron_photo {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vh;
+    height: 30vh;
+    margin: 0 1.5vh;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: 0px 30px;
+    filter: sepia(60%);
+  }
+
+  .data_box_2 {
+    display: grid;
+    position: relative;
+    grid-template-columns: 60% 40%;
+    font-size: 6px;
+    grid-gap: 0.2em;
+    margin-top: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
+  }
+
+  h3 > .mail_link {
+    display: flex;
+    font-size: 12px;
+    border: 1px solid var(--aquamarine_color);
+    border-radius: 10px;
+    border-start-end-radius: var(--dark_green_color);
+    border-end-start-radius: var(--aquamarine_color);
+    margin-top: 6vh;
+    margin-left: 35vw;
+    height: 3vh;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 3px 4px rgba(0, 36, 27, 1);
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article > a > img {
+    max-width: 150px;
+    filter: brightness(0);
+    margin-top: 1vh;
+  }
+
+  .github {
+    margin-top: 1.2vh;
+  }
+
+  .linkedin {
+    margin-top: 1vh;
+    margin-right: 15px;
+    width: 40px;
+  }
+
+  footer {
+    display: flex;
+    position: relative;
+    font-size: 8px;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 801px) and (max-width: 1080px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18vh;
+    grid-gap: 0.2em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .data_box_1 {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 30% 70%;
+    font-size: 6px;
+    grid-gap: 0.2em;
+    height: 10%;
+    max-height: 40%;
+    margin-top: 11vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 20px 20px 0px rgba(0, 36, 27, 1);
+  }
+
+  .curly_and_aaronphoto {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 12vh;
+    margin-bottom: -9vh;
+  }
+
+  .curlybracket {
+    font-size: 15vh;
+    text-align: center;
+    box-shadow: 10px 30px 30px 0px rgba(0, 36, 27, 1);
+  }
+
+  .aaron_photo {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vh;
+    height: 30vh;
+    margin: 0 1.5vh;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: 0px 30px;
+    filter: sepia(60%);
+  }
+
+  .data_box_2 {
+    display: grid;
+    position: relative;
+    grid-template-columns: 60% 40%;
+    font-size: 6px;
+    grid-gap: 0.2em;
+    margin-top: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
+  }
+
+  h3 > .mail_link {
+    display: flex;
+    font-size: 12px;
+    border: 1px solid var(--aquamarine_color);
+    border-radius: 10px;
+    border-start-end-radius: var(--dark_green_color);
+    border-end-start-radius: var(--aquamarine_color);
+    margin-top: 2vh;
+    margin-left: 9vh;
+    margin-right: 9vh;
+    height: 3vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 3px 4px rgba(0, 36, 27, 1);
+  }
 }
 
 @media screen and (min-width: 620px) and (max-width: 800px) {
