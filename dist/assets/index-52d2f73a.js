@@ -171,7 +171,7 @@ const E = () => {
       (t.className = 'curlybracket'),
       (t.textContent = '{'),
       (n.className = 'aaron_photo'),
-      (n.src = '../assets/img/aaron.png'),
+      (n.src = './assets/img/aaron.png'),
       (n.alt = 'aaron_photo'),
       (c.className = 'curlybracket'),
       (c.textContent = '}'),
