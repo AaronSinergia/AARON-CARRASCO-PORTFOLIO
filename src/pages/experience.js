@@ -60,11 +60,16 @@ const overlayPhoto = () => {
 
 // CURLY  BRACKETS EXPERIENCE DOWN
 const curlyDown = () => {
+  const divCurlyDown = document.createElement('div');
   const h2CurlyDown = document.createElement('h2');
+
+  divCurlyDown.className = 'curly_down_div';
   h2CurlyDown.className = 'curly_experience_down';
   h2CurlyDown.textContent = '}';
 
-  return h2CurlyDown.outerHTML;
+  divCurlyDown.appendChild(h2CurlyDown);
+
+  return divCurlyDown.outerHTML;
 };
 
 export const renderExperience = () => {
