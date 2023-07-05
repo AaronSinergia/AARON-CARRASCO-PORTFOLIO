@@ -1,5 +1,5 @@
-import '../projects_style.css';
-import { projectsList } from '../components/ProjectsList';
+import './projects_style.css';
+import { projectsList } from '../ProjectsList';
 
 // PROJECTS TITLE
 const bodyProjectsHeader = () => {

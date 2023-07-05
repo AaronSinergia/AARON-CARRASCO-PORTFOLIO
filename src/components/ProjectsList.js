@@ -1,12 +1,12 @@
 export const projectsList = [
   {
     name: 'PROYECTO ADOPTAUNHEAVY',
-    image: '../../public/img/previewfotoadoptaunheavy.jpg',
+    image: './assets/previewfotoadoptaunheavy.jpg',
     url: 'https://proyecto-html-css-aaroncarrasco.netlify.app/',
   },
   {
     name: 'PROYECTO TIENDADEROPA',
-    image: '../../public/img/previewfototiendaderopa.jpg',
+    image: './assets/previewfototiendaderopa.jpg',
     url: 'https://01-js-dom-proyecto-aaroncarrasco.netlify.app/',
   },
 ];

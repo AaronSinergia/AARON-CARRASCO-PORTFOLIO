@@ -13,17 +13,17 @@ export const renderRRSSIcons = () => {
   githubLink.className = 'github_link';
   githubLink.href = 'https://github.com/AaronSinergia?tab=repositories';
   githubIMG.className = 'github';
-  githubIMG.src = '../../public/img/GitHubLogo.png';
+  githubIMG.src = './assets/GitHubLogo.png';
   githubIMG.alt = 'github_logo';
   linkedinLink.className = 'linkedin_link';
   linkedinLink.href = 'https://www.linkedin.com/in/aaron-carrasco-romero/';
   linkedinIMG.className = 'linkedin';
-  linkedinIMG.src = '../../public/img/1384014.png';
+  linkedinIMG.src = './assets/1384014.png';
   linkedinIMG.alt = 'linkedin_logo';
   netlifyLink.className = 'netlify_link';
   netlifyLink.href = 'https://app.netlify.com/teams/aaronsinergia/sites';
   netlifyIMG.className = 'netlify';
-  netlifyIMG.src = '../../public/img/netlify_logo_icon_169924.png';
+  netlifyIMG.src = './assets/netlify_logo_icon_169924.png';
   netlifyIMG.alt = 'netlify_logo';
 
   githubLink.appendChild(githubIMG);

@@ -1,5 +1,5 @@
-import { experienceList } from '../components/ExperienceList';
-import '../experience_style.css';
+import { experienceList } from '../ExperienceList';
+import './experience_style.css';
 
 // EXPERIENCE TITLE
 const bodyExperienceData = () => {

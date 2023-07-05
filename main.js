@@ -1,3 +1,3 @@
-import { mainContent } from './src/pages/maincontent';
+import { mainContent } from './src/components/maincontent';
 
 mainContent();
