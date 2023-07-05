@@ -219,7 +219,7 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 451px) and (max-width: 575px) {
   .curly_up {
     font-size: 10vh;
     position: absolute;
@@ -236,5 +236,23 @@
     transform: translate(-50%, -120%) rotate(90deg);
     margin-bottom: -150px;
     box-shadow: 0px 0px 10px 0px rgba(0, 36, 27, 1);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h3 > .mail_link {
+    display: flex;
+    font-size: 10px;
+    border: 1px solid var(--aquamarine_color);
+    border-radius: 10px;
+    border-start-end-radius: var(--dark_green_color);
+    border-end-start-radius: var(--aquamarine_color);
+    margin-top: 9vh;
+    margin-left: 7vh;
+    height: 4vh;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 1px 3px 4px rgba(0, 36, 27, 1);
   }
 }

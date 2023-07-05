@@ -243,12 +243,35 @@
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (min-width: 451px) and (max-width: 570px) {
   .column img {
     margin-top: 10px;
     margin-bottom: 15px;
     width: 16vh;
     height: 90%;
+    filter: sepia(80%);
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vh;
+    width: 100%;
+    padding: 0 35px;
+    margin-top: 15vh;
+    margin-bottom: 2.5vh;
+    justify-content: center;
+    left: 10%;
+    transform: translate(1%);
+  }
+  .column img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 13vh;
+    height: 15vh;
     filter: sepia(80%);
     transition: all 0.3s ease;
   }
