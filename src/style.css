@@ -215,7 +215,7 @@ footer {
     flex-wrap: wrap;
     margin-top: 18vh;
     grid-gap: 0.2em;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
   }
@@ -329,7 +329,7 @@ footer {
     flex-wrap: wrap;
     margin-top: 18vh;
     grid-gap: 0.2em;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -412,13 +412,13 @@ footer {
   .navbar {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 18vh;
+    margin-top: 16vh;
     grid-gap: 0.2em;
-    position: fixed;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
   }
 
   .data_box_1 {
