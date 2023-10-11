@@ -122,7 +122,7 @@ body {
   transform: translate(-50%, -50%);
   width: 20vh;
   height: 30vh;
-  margin: 0 1.5vh;
+  margin: 1.4vh;
   border-radius: 100px;
   object-fit: cover;
   object-position: 0px 30px;
@@ -135,7 +135,6 @@ body {
   grid-template-columns: 60% 40%;
   font-size: 6px;
   grid-gap: 0.2em;
-  margin-top: 1px;
   margin-left: 6px;
   margin-right: 6px;
   box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
@@ -680,6 +679,7 @@ footer {
     box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
     height: 13.5vh;
   }
+
   .mail_contact {
     margin-top: -30px;
     margin-bottom: 1px;
