@@ -246,7 +246,7 @@
 @media screen and (max-width: 450px) {
   h3 > .mail_link {
     display: flex;
-    font-size: 10px;
+    font-size: 9px;
     border: 1px solid var(--aquamarine_color);
     border-radius: 10px;
     border-start-end-radius: var(--dark_green_color);

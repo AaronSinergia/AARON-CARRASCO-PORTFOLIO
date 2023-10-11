@@ -52,7 +52,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 14vh;
+  margin-top: 14.6vh;
   grid-gap: 0.2em;
   position: absolute;
 }
@@ -120,13 +120,14 @@ body {
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 25vh;
-  height: 30vh;
-  margin: 1.4vh;
+  width: 20vh;
+  height: 34vh;
+  margin: 1vh;
   border-radius: 100px;
   object-fit: cover;
   object-position: 0px 30px;
   filter: sepia(60%);
+  z-index: 1;
 }
 
 .data_box_2 {
