@@ -1,6 +1,10 @@
 :root {
   line-height: 1.5;
   font-size: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  overflow: auto;
 
   --dark_green_color: #00241b;
   --dark_cyan_color: #4e878c;
