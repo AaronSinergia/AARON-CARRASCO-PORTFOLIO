@@ -11,14 +11,14 @@ const bodyProjectsHeader = () => {
   return h1.outerHTML;
 };
 
-// CURLY  BRACKETS UPSIDEDOWN
-const curlyUp = () => {
-  const h2CurlyUp = document.createElement('h2');
-  h2CurlyUp.className = 'curly_up';
-  h2CurlyUp.textContent = '{';
+// // CURLY  BRACKETS UPSIDEDOWN
+// const curlyUp = () => {
+//   const h2CurlyUp = document.createElement('h2');
+//   h2CurlyUp.className = 'curly_up';
+//   h2CurlyUp.textContent = '{';
 
-  return h2CurlyUp.outerHTML;
-};
+//   return h2CurlyUp.outerHTML;
+// };
 
 // PROJECTS GALLERY
 const bodyProjectsGallery = () => {
@@ -40,22 +40,20 @@ const bodyProjectsGallery = () => {
   return divProjectsGallery.outerHTML;
 };
 
-// CURLY  BRACKETS UPSIDEDOWN
-const curlyDown = () => {
-  const h2CurlyDown = document.createElement('h2');
-  h2CurlyDown.className = 'curly_down';
-  h2CurlyDown.textContent = '}';
+// // CURLY  BRACKETS UPSIDEDOWN
+// const curlyDown = () => {
+//   const h2CurlyDown = document.createElement('h2');
+//   h2CurlyDown.className = 'curly_down';
+//   h2CurlyDown.textContent = '}';
 
-  return h2CurlyDown.outerHTML;
-};
+//   return h2CurlyDown.outerHTML;
+// };
 
 // PROJECTS BODY
 export const renderProjects = () => {
   const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
     ${bodyProjectsHeader()}
-    ${curlyUp()}
     ${bodyProjectsGallery()}
-    ${curlyDown()}
   `;
 };
