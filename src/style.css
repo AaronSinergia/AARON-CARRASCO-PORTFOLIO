@@ -52,7 +52,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 17vh;
+  margin-top: 14vh;
   grid-gap: 0.2em;
   position: absolute;
 }
@@ -74,7 +74,7 @@ body {
   grid-gap: 0.2em;
   height: 10%;
   max-height: 40%;
-  margin-top: 15vh;
+  margin-top: 14vh;
   margin-left: 6px;
   margin-right: 6px;
   box-shadow: 20px 20px 20px 0px rgba(0, 36, 27, 1);
@@ -662,7 +662,7 @@ footer {
     overflow: hidden;
     border: 8px solid rgb(255, 255, 255);
     border-radius: 20px;
-    margin-top: 4vh;
+    margin-top: 1.5vh;
     font-size: 2.2vh;
     height: 60px;
     margin-left: 2vh;
