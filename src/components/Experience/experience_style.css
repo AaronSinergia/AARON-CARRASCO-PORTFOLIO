@@ -112,7 +112,7 @@
   font-size: 20px;
   height: 40px;
   bottom: 5px;
-  margin: 0 140px;
+  margin: 0 120px;
   transition: all 0.2s ease;
   color: var(--aquamarine_color);
   border: 4px solid var(--white_color);
@@ -163,6 +163,11 @@ footer {
     filter: sepia(80%);
     transition: all 0.3s ease;
   }
+
+  .btn_close {
+    height: 85px;
+    margin: 0 500px;
+  }
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1140px) {
@@ -182,6 +187,11 @@ footer {
     height: 90%;
     filter: sepia(80%);
     transition: all 0.3s ease;
+  }
+
+  .btn_close {
+    height: 75px;
+    margin: 0 350px;
   }
 }
 
@@ -203,6 +213,11 @@ footer {
     height: 90%;
     filter: sepia(80%);
     transition: all 0.3s ease;
+  }
+
+  .btn_close {
+    height: 75px;
+    margin: 0 350px;
   }
 }
 
@@ -227,6 +242,11 @@ footer {
     filter: sepia(80%);
     transition: all 0.3s ease;
   }
+
+  .btn_close {
+    height: 60px;
+    margin: 0 190px;
+  }
 }
 
 @media screen and (min-width: 571px) and (max-width: 619px) {
@@ -250,6 +270,11 @@ footer {
     filter: sepia(80%);
     transition: all 0.3s ease;
   }
+
+  .btn_close {
+    height: 50px;
+    margin: 0 190px;
+  }
 }
 
 @media screen and (min-width: 451px) and (max-width: 570px) {
@@ -260,6 +285,11 @@ footer {
     height: 90%;
     filter: sepia(80%);
     transition: all 0.3s ease;
+  }
+
+  .btn_close {
+    height: 40px;
+    margin: 0 120px;
   }
 }
 

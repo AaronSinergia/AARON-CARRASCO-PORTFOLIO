@@ -323,6 +323,34 @@ footer {
   }
 }
 
+@media screen and (min-width: 1635px) and (max-width: 2380px) {
+  .title_name {
+    margin-left: 600px;
+    margin-right: 600px;
+  }
+}
+
+@media screen and (min-width: 1435px) and (max-width: 1634px) {
+  .title_name {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1434px) {
+  .title_name {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1239px) {
+  .title_name {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
 @media screen and (min-width: 801px) and (max-width: 1080px) {
   .navbar {
     display: flex;

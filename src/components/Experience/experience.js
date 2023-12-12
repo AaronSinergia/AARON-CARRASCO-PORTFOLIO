@@ -1,4 +1,4 @@
-import { experienceList } from '../ExperienceList';
+import { experienceList } from '../Experience/ExperienceList/ExperienceList';
 import './experience_style.css';
 
 // EXPERIENCE TITLE

@@ -1,5 +1,5 @@
 import './projects_style.css';
-import { projectsList } from '../ProjectsList';
+import { projectsList } from './ProjectsList/ProjectsList';
 
 // PROJECTS TITLE
 const bodyProjectsHeader = () => {
