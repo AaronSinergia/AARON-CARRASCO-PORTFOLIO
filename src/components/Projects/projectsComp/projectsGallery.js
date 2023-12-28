@@ -1,9 +1,6 @@
-import './projects_style.css';
-import projectsGallery from './projectsComp/projectsGallery';
-import projectsHeader from './projectsComp/projectsHeader';
+import { projectsList } from '../ProjectsList/ProjectsList';
 
-// PROJECTS GALLERY
-const bodyProjectsGallery = () => {
+const projectsGallery = () => {
   const divProjectsGallery = document.createElement('div');
   divProjectsGallery.className = 'general_div_photo_projects';
 
@@ -22,11 +19,4 @@ const bodyProjectsGallery = () => {
   return divProjectsGallery.outerHTML;
 };
 
-// PROJECTS BODY
-export const renderProjects = () => {
-  const bodyOfHtml = document.querySelector('#container');
-  bodyOfHtml.innerHTML = `
-    ${projectsHeader()}
-    ${projectsGallery()}
-  `;
-};
+export default projectsGallery;

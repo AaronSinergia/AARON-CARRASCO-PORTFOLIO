@@ -10,18 +10,25 @@ export const renderRRSSIcons = () => {
   const netlifyIMG = document.createElement('img');
 
   articleRRSS.className = 'rrss';
+
   githubLink.className = 'github_link';
   githubLink.href = 'https://github.com/AaronSinergia?tab=repositories';
+  githubLink.target = '_blank';
   githubIMG.className = 'github';
   githubIMG.src = './assets/GitHubLogo.png';
   githubIMG.alt = 'github_logo';
+
   linkedinLink.className = 'linkedin_link';
   linkedinLink.href = 'https://www.linkedin.com/in/aaron-carrasco-romero/';
+  linkedinLink.target = '_blank';
   linkedinIMG.className = 'linkedin';
   linkedinIMG.src = './assets/1384014.png';
   linkedinIMG.alt = 'linkedin_logo';
+
   netlifyLink.className = 'netlify_link';
   netlifyLink.href = 'https://app.netlify.com/teams/aaronsinergia/sites';
+  netlifyLink.target = '_blank';
+
   netlifyIMG.className = 'netlify';
   netlifyIMG.src = './assets/netlify_logo_icon_169924.png';
   netlifyIMG.alt = 'netlify_logo';

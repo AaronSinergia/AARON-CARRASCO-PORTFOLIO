@@ -1,6 +1,6 @@
-import { renderExperience } from '../Experience/experience';
+import { renderExperience } from '../../Experience/experience';
 import { renderHome } from '../home';
-import { renderProjects } from '../Projects/projects';
+import { renderProjects } from '../../Projects/projects';
 
 // NAVBAR
 export const renderNavbar = () => {

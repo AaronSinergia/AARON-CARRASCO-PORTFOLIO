@@ -1,16 +1,18 @@
-import { renderNavbar } from './src/components/navbar/navbar';
-import { renderMail } from './src/components/mailContact/mailcontact';
-import { renderRRSSIcons } from './src/components/rrssIcons/rrss';
+import { renderNavbar } from './src/components/Home/navbar/navbar';
+import { renderMail } from './src/components/footer/mailContact/mailcontact';
+import { renderRRSSIcons } from './src/components/footer/rrssIcons/rrss';
 import { renderFooter } from './src/components/footer/footer';
 
 export const mainContent = () => {
   const body = document.querySelector('body');
   body.innerHTML += `
-    <div id="navbar"></div>
-    <div id="container"></div>
-    <div id="render_mail"></div>
-    <div id="render_rrss_icons"></div>
-    <div id="render_footer"></div>
+  <section id= 'section'>
+    <article id="navbar"></article>
+    <article id="container"></article>
+    <article id="render_mail"></article>
+    <article id="render_rrss_icons"></article>
+    <article id="render_footer"></article>
+  </section>
     `;
 
   renderNavbar();

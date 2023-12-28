@@ -1,5 +1,4 @@
 * {
-  color: var(--aquamarine_color);
   font-family: 'Press Start 2P', cursive;
   box-sizing: border-box;
   text-decoration: none;
@@ -17,6 +16,7 @@
   --celadon_color: #93e5ab;
   --aquamarine_color: #b5ffe1;
   --white_color: rgb(255, 255, 255);
+  color: var(--aquamarine_color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -55,6 +55,10 @@ body {
   margin-top: 14.6vh;
   grid-gap: 0.2em;
   position: absolute;
+}
+
+a {
+  color: var(--aquamarine_color);
 }
 
 .principal_links_bar {
@@ -175,7 +179,7 @@ h3 > .mail_link {
   box-shadow: 2px 1px 3px 4px rgba(0, 36, 27, 1);
 }
 
-article {
+.rrss {
   display: flex;
   justify-content: center;
   align-items: center;
