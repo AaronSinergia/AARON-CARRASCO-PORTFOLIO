@@ -1,13 +1,13 @@
 export const projectsList = [
   {
-    name: 'PROYECTO ADOPTAUNHEAVY',
-    image: './assets/previewfotoadoptaunheavy.jpg',
-    url: 'https://proyecto-html-css-aaroncarrasco.netlify.app/',
+    name: 'PINTAESTA',
+    image: './assets/pintaesta.jpg',
+    url: 'https://pintaesta-vite-prjct.netlify.app/',
   },
   {
-    name: 'PROYECTO TIENDADEROPA',
-    image: './assets/previewfototiendaderopa.jpg',
-    url: 'https://01-js-dom-proyecto-aaroncarrasco.netlify.app/',
+    name: 'PC OHMPONENTES',
+    image: './assets/pcohmponentes.jpg',
+    url: 'https://pcohmponentes-vite-prjct.netlify.app/',
   },
   {
     name: 'PROYECTO NASA',

@@ -4,7 +4,7 @@ const personalDataOne = () => {
   divDataBox.className = 'data_box_1';
   h3.className = 'datos_personales';
   h3.innerText =
-    './RESIDENCIA/BCN.html ./EDAD/32_AÑOS.css ./ACTUALMENTE/DXC/HelpDeskIt.js';
+    './RESIDENCIA/BCN.html ./EDAD/33_AÑOS.css ./ACTUALMENTE/DXC/HelpDeskIt.js';
   divDataBox.appendChild(h3);
   const h3Word = document.createElement('h3');
   h3Word.className = 'frase';

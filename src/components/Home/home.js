@@ -1,6 +1,5 @@
-import '../../../style.css';
+import './style.css';
 import curlyBracketsStetic from './homeComps/curlyBracketsStetic';
-import homeTitle from './homeComps/homeTitle';
 import personalDataOne from './homeComps/personalDataOne';
 import personalDataTwo from './homeComps/personalDataTwo';
 
@@ -8,7 +7,6 @@ import personalDataTwo from './homeComps/personalDataTwo';
 export const renderHome = () => {
   const bodyOfHtml = document.querySelector('#container');
   bodyOfHtml.innerHTML = `
-    ${homeTitle()}
     ${personalDataOne()}
     ${curlyBracketsStetic()}
     ${personalDataTwo()}
