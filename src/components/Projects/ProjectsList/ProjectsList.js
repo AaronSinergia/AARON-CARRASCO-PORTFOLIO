@@ -5,17 +5,17 @@ export const projectsList = [
     url: 'https://pintaesta-vite-prjct.netlify.app/',
   },
   {
-    name: 'PC OHMPONENTES',
+    name: 'PC-OHMPONENTES',
     image: './assets/pcohmponentes.jpg',
     url: 'https://pcohmponentes-vite-prjct.netlify.app/',
   },
   {
-    name: 'PROYECTO NASA',
+    name: 'PROYECTO-NASA',
     image: './assets/nasaproject.jpg',
     url: 'https://01-react-nasa.netlify.app/',
   },
   {
-    name: 'PROYECTO WEATHER APP',
+    name: 'PROYECTO-WEATHERAPP',
     image: './assets/weatherproject.jpg',
     url: 'https://01-react-weather-project.netlify.app/',
   },

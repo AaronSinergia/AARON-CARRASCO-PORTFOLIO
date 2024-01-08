@@ -25,7 +25,7 @@ const openPhotoEffect = () => {
   };
 
   // Evento de click para cada imagen, y cargo el evento de que hacer arriba
-  const images = document.querySelectorAll('.column');
+  const images = document.querySelectorAll('.column > img');
   images.forEach((image) => {
     image.addEventListener('click', clickImageListener);
   });
@@ -40,7 +40,6 @@ const openPhotoEffect = () => {
     if (previousImgInfo) {
       previousImgInfo.remove();
     }
-    // createImgInfo.textContent = ''; ---> revisar si es preciso
   };
   const closeButton = document.querySelector('.btn_close');
   closeButton.addEventListener('click', clickCloseListener);

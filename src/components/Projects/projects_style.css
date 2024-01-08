@@ -20,154 +20,75 @@
   filter: grayscale(0%);
 }
 
-@media screen and (min-width: 1670px) and (max-width: 2080px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 30%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
+article {
+  --dark_green_color: #00241b;
+  --dark_cyan_color: #4e878c;
+  --mint_color: #65b891;
+  --celadon_color: #93e5ab;
+  --aquamarine_color: #b5ffe1;
+  --white_color: rgb(255, 255, 255);
+}
 
-  .curly_down {
-    display: none;
+.PINTAESTA,
+.PC-OHMPONENTES,
+.PROYECTO-NASA,
+.PROYECTO-WEATHERAPP {
+  display: none;
+  position: absolute;
+  font-size: 10px;
+  color: var(--aquamarine_color);
+  background-color: var(--mint_color);
+  padding: 20px;
+  justify-content: center;
+  margin: 20px 1px;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1340px) and (max-width: 2700px) {
+  .projects_photos {
+    margin-top: 25px;
+    height: 210px;
   }
 }
 
-@media screen and (min-width: 1368px) and (max-width: 1669px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 40%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
-
-  .curly_down {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1136px) and (max-width: 1367px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 50%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
-
-  .curly_down {
-    display: none;
+@media screen and (min-width: 1136px) and (max-width: 1339px) {
+  .projects_photos {
+    margin-top: 15px;
+    height: 245px;
   }
 }
 
 @media screen and (min-width: 966px) and (max-width: 1135px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 60%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
-
-  .curly_down {
-    display: none;
+  .projects_photos {
+    margin-top: 15px;
+    height: 245px;
   }
 }
 
 @media screen and (min-width: 851px) and (max-width: 965px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 70%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
-
-  .curly_down {
-    display: none;
+  .projects_photos {
+    margin-top: 15px;
+    height: 245px;
   }
 }
 
 @media screen and (min-width: 637px) and (max-width: 850px) {
-  .general_div_photo_projects {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-top: 13vh;
-    margin-bottom: 5vh;
-    box-shadow: 20px 10px 20px 0px rgba(0, 36, 27, 1);
-    border-radius: 10px;
-    width: 80%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .curly_up {
-    display: none;
-  }
-
-  .curly_down {
-    display: none;
+  .projects_photos {
+    margin-top: 15px;
+    height: 245px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 636px) {
   .projects_photos {
     margin-top: 15px;
-    height: 245px;
+    height: 205px;
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 575px) {
   .projects_photos {
     margin-top: 15px;
-    height: 245px;
+    height: 205px;
   }
 }

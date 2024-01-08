@@ -2,6 +2,7 @@ import './style.css';
 import curlyBracketsStetic from './homeComps/curlyBracketsStetic';
 import personalDataOne from './homeComps/personalDataOne';
 import personalDataTwo from './homeComps/personalDataTwo';
+import divLogosProgrammer from './homeComps/divLogosProgrammer';
 
 // RENDER HOME
 export const renderHome = () => {
@@ -10,5 +11,6 @@ export const renderHome = () => {
     ${personalDataOne()}
     ${curlyBracketsStetic()}
     ${personalDataTwo()}
+    ${divLogosProgrammer()}
   `;
 };

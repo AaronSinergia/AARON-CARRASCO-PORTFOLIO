@@ -1,5 +1,6 @@
 import './projects_style.css';
 import projectsGallery from './projectsComp/projectsGallery';
+import openTitlePhoto from './visualEffects/openTitlePhoto';
 
 // PROJECTS BODY
 export const renderProjects = () => {
@@ -7,4 +8,6 @@ export const renderProjects = () => {
   bodyOfHtml.innerHTML = `
     ${projectsGallery()}
   `;
+
+  openTitlePhoto();
 };
