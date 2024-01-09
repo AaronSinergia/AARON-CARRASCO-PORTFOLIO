@@ -152,7 +152,6 @@ a {
 
 .my_aspirations {
   display: grid;
-  cursor: pointer;
   border: 3px solid var(--white_color);
   border-radius: 10px;
   padding: 10px;
@@ -162,7 +161,6 @@ a {
 
 .my_work_valors {
   display: grid;
-  cursor: pointer;
   border: 3px solid var(--white_color);
   border-radius: 10px;
   padding: 7px;
@@ -989,7 +987,7 @@ footer {
     top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 55%;
     height: 80%;
     border-radius: 100px;
     object-fit: cover;
@@ -1000,7 +998,6 @@ footer {
 
   .my_aspirations {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 10px;
@@ -1010,7 +1007,6 @@ footer {
 
   .my_work_valors {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 7px;
@@ -1178,7 +1174,6 @@ footer {
 
   .my_aspirations {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 10px;
@@ -1188,7 +1183,6 @@ footer {
 
   .my_work_valors {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 7px;
@@ -1357,7 +1351,6 @@ footer {
 
   .my_aspirations {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 10px;
@@ -1367,7 +1360,6 @@ footer {
 
   .my_work_valors {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 7px;
@@ -1530,7 +1522,6 @@ footer {
 
   .my_aspirations {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 10px;
@@ -1540,7 +1531,6 @@ footer {
 
   .my_work_valors {
     display: grid;
-    cursor: pointer;
     border: 3px solid var(--white_color);
     border-radius: 10px;
     padding: 7px;

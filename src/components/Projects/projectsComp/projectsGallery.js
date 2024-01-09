@@ -7,7 +7,8 @@ const projectsGallery = () => {
   for (let i = 0; i < projectsList.length; i++) {
     const projectsListShow = projectsList[i];
     const urlProjectImages = document.createElement('a');
-    // urlProjectImages.href = projectsListShow.url; //// volver a ponerlo sin comentar!!!
+    urlProjectImages.href = projectsListShow.url;
+    urlProjectImages.target = '_blank';
 
     const projectTitle = document.createElement('h2');
     projectTitle.innerHTML = projectsListShow.name;
@@ -15,6 +16,7 @@ const projectsGallery = () => {
 
     const imageProjectsList = document.createElement('img');
     imageProjectsList.className = 'projects_photos';
+    imageProjectsList.id = projectsListShow.name;
     imageProjectsList.src = projectsListShow.image;
     imageProjectsList.alt = projectsListShow.name;
 
